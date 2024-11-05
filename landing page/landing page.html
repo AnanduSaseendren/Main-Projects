@@ -5,37 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landing page</title>
     <style>
+         * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
         .heading1{
-            font-size: 30px;
-            padding: 10px;
+            font-size: 187.5%;
+            padding: 9px;
             background-color: lightgreen;
             color: white;
             font-family: 'Arial Narrow';
             font: lighter ;
             margin-left: 75px;
+            margin-bottom: 20px;
+            margin-top: 15px;
             
         }
         .container1{
             display: flex;
             background-color: lightgreen;
+            justify-content: space-between;
+            padding: 0 20px;
         }
         .buttons{
-            margin-left: 850px;
+            margin-left: 500px;
+            margin-right: 50px;
         }
-        .button{
-            
+        .button{ 
             width: 100px;
             height: 50px;
             background-color: lightgreen;
             border: none;
             color: white;
             font-size: 20px;
-            padding-top: 35px;
             cursor: pointer;
+            margin-top: 15px;
+        }
+        .button:hover{
+            background-color: brown;
+            border-radius: 25px;
         }
         .container2{
             display: flex;
             height: 500px;
+            margin-top: 70px;
         }
         .img{
             width: 500px;
@@ -47,7 +61,7 @@
             background-color: white     ;
             font-size: 35px;
             margin-left: 75px;
-            margin-top: 120px;
+            margin-top: 170px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
             color: green;
         }
@@ -59,8 +73,13 @@
             background-color: gray;
             cursor: pointer;
         }
+        .explore:hover{
+            background-color: brown;
+        }
         .head3{
             text-align: center;
+            margin-top: 25px;
+            margin-bottom: 25px;
         }
         .container3{
             display: flex;
@@ -79,10 +98,12 @@
         }
         .head4{
             text-align: center;
-            margin-top: 30px;
+            margin-top: 50px;
+            margin-bottom: 50px;
         }
         .container4{
             display: flex;
+            height: 250px;
             
         }
         .form{
@@ -90,6 +111,7 @@
             height: 200px;
             padding: 80px;
             padding-top: 25px;
+            padding-bottom: 20px;
             
         }
         .input{
@@ -108,10 +130,17 @@
         .heading{
             margin-left: 400px;
         }
-        
-
-        
-        
+        .sign:hover{
+            background-color: brown;
+        }
+        .sign{
+            margin-top: 10px;
+            width: 100px;
+            border-radius: 10px;
+            height: 30px;
+            border: none;
+            cursor: pointer;
+        }       
     </style>
 </head>
 <body>
@@ -164,7 +193,7 @@
                 <label for="Password" style="margin-bottom: 10px;">Your Password</label><br>
                 <input type="password" id="Password" placeholder="Your Password" class="input">
             </form>
-            <button style="margin-top: 20px; width: 100px; border-radius: 10px; height: 30px; border: none; cursor: pointer;">Sign Up</button>
+            <button class="sign">Sign Up</button>
         </div>
         <div class="Contact">
             <p class="heading" style="font-weight: bolder;">Contact Us</p>

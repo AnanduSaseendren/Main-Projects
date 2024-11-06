@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: aliceblue;
+        }
+        .main{
+            display: flex;
+        }
+        .part1{
+            width: 900px;
+            height: 500px;
+        }
+        .head1{
+            margin-left: 250px;
+            font-size: 50px;
+            margin-top: 200px;
+            color: blue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }.head2{
+            margin-left: 250px;
+            padding-right: 40px;
+            font-size: 30px;
+            padding-top: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .part2{
+            width: 650px;
+            padding: 20px;
+            padding-top: 150px;
+        }
+        .login-box{
+            width: 400px;
+            height: 380px;
+            padding: 25px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border-radius: 10px;background-color: white;
+        }
+        .box{
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            border-color: rgb(222, 209, 209);
+            border: 1px solid rgb(224, 216, 216);
+            padding-left: 10px;
+        }
+        .button{
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            background-color: blue;
+            color: white;
+            font-size: 25px;
+            font: bold;
+        }
+        .create{
+            width: 50%;
+            height: 50px;
+            margin-left: 100px;
+            margin-top: 25px;
+            border-radius: 10px;
+            background-color: green;
+            color: white;
+            font: bolder;
+            font-size: 15px;
+            border: none;
+        }
+        .link{
+            margin-left: 120px;
+            margin-top: 50px;
+            text-decoration: none;
+        }
+        .link:hover{
+            text-decoration: underline;
+        }
+        .box::placeholder{
+            margin-left: 5px;
+        }
+        .link2{
+            margin-left: 960px;
+            margin-top: 50px;
+            text-decoration: none;
+            color: black;
+        }
+        .link2:hover{
+            text-decoration: underline;
+        }
+        .line{
+            margin-top: 25px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="part1 ">
+            <h1 class="head1">facebook</h1>
+            <h2 class="head2">Facebook helps you connect and share with the people in your life.</h2>
+        </div>
+        <div class="part2">
+            <div class="login-box">
+                <form action="work.html" class="form">
+                     <input type="text" id="Email/phone number" placeholder="Email Address or phone number" class="box"><br>
+                     <input type="password" id="password" placeholder="Password" class="box" style="margin-top: 20px;"> 
+                     <button class="button" style="margin-top: 20px; margin-bottom: 20px; border: none;">Log In</button>
+                     <a href="" class="link" style="padding-top: 500px;">Forgotten password?</a><hr class="line">
+                     <button class="create">Create A New Account</button>
+                </form>
+             </div>
+
+        </div>
+    </div>
+    <div>
+        <p>
+            <a href="" class="link2">Create a page</a> for a celebrity, brand or business.
+        </p>
+    </div>
+</body>
+</html>

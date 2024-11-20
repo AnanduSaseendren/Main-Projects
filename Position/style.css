@@ -1,0 +1,88 @@
+.main{
+    background-color: rgb(1, 1, 83);
+    width: 75%;
+    height: 600px;
+    display: flex;
+    gap: 0.5%;
+}
+.card-1{
+    /* background-color: aqua; */
+    position: relative;
+    width: 250px;
+    height: 500px;
+}
+.card-1-inner-1{
+    background-color: #1E204C;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+}
+.card-1-inner-2{
+    background-color: #5647EA;
+    width: 250px;
+    height: 370px;
+    border-radius: 20px;
+    position: absolute;
+    top: 0px;
+    /* z-index: ; */
+}
+.six-card-container{
+    /* background-color: aqua; */
+    width: 800px;
+    height: 500px;
+}
+.three-card-container-top{
+    /* background-color: aquamarine; */
+    width: 800px;
+    height: 250px;
+    display: flex;
+    gap: 0.5%;
+}
+.three-card-container-bottom{
+    /* background-color: bisque; */
+    width: 800px;
+    height: 250px;
+    display: flex;
+    
+}
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6,
+.card-7{
+    /* background-color: brown; */
+    position: relative;
+    width: 33%;
+    height: 250px;
+}
+.card-2-inner-1,
+.card-3-inner-1,
+.card-4-inner-1,
+.card-5-inner-1,
+.card-6-inner-1,
+.card-6-inner-1{
+    background-color: orange;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.card-2-inner-2,
+.card-3-inner-2,
+.card-4-inner-2,
+.card-5-inner-2,
+.card-6-inner-2,
+.card-7-inner-2{
+    background-color: #1E204C;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0;
+}
+.card-3-inner-1{
+    background-color: rgb(97, 201, 241);
+}
+.card-4-inner-1{
+    background-color: lightcoral;
+}

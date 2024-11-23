@@ -41,10 +41,13 @@
     color: white;
     background-image: url(images/search-icon.png);
     background-repeat: no-repeat;
-    padding-left: 20px;
-    background-position: left;
+    padding-left: 30px;
+    background-position: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
+}
+.Searchbar::placeholder{
+    color: white;
 }
 .Searchbar:hover{
     box-shadow: rgb(255, 255, 255) 1px 1px 5px;
